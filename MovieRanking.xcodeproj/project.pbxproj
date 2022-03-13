@@ -14,6 +14,7 @@
 		D7A8565727DCD17600D8018A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A8565527DCD17600D8018A /* LaunchScreen.storyboard */; };
 		D7A8565F27DCD42400D8018A /* ViewControllerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8565E27DCD42400D8018A /* ViewControllerTable.swift */; };
 		D7A8566127DCD43900D8018A /* ViewControllerCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8566027DCD43900D8018A /* ViewControllerCollection.swift */; };
+		D7F6CD6827DE28D900FBD936 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F6CD6727DE28D900FBD936 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D7A8565827DCD17600D8018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7A8565E27DCD42400D8018A /* ViewControllerTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTable.swift; sourceTree = SOURCE_ROOT; };
 		D7A8566027DCD43900D8018A /* ViewControllerCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCollection.swift; sourceTree = SOURCE_ROOT; };
+		D7F6CD6727DE28D900FBD936 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D7A8565E27DCD42400D8018A /* ViewControllerTable.swift */,
 				D7A8566027DCD43900D8018A /* ViewControllerCollection.swift */,
 				D7A8565027DCD17600D8018A /* Main.storyboard */,
+				D7F6CD6727DE28D900FBD936 /* Models.swift */,
 				D7A8565327DCD17600D8018A /* Assets.xcassets */,
 				D7A8565527DCD17600D8018A /* LaunchScreen.storyboard */,
 				D7A8565827DCD17600D8018A /* Info.plist */,
@@ -145,6 +148,7 @@
 				D7A8566127DCD43900D8018A /* ViewControllerCollection.swift in Sources */,
 				D7A8564D27DCD17600D8018A /* SceneDelegate.swift in Sources */,
 				D7A8565F27DCD42400D8018A /* ViewControllerTable.swift in Sources */,
+				D7F6CD6827DE28D900FBD936 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
