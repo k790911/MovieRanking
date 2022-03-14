@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="80" id="KGk-i7-Jjw" customClass="MyTableViewCell" customModule="MovieRanking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5Q-vk-QOX">
+                        <rect key="frame" x="20" y="20" width="30" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="ifb-at-KxG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2a-uE-WXT">
+                        <rect key="frame" x="58" y="20" width="198" height="40"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di3-Sk-6sr">
+                        <rect key="frame" x="264" y="25" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="X8t-fJ-wB8"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="qGO-ek-UDI"/>
+                            <constraint firstAttribute="width" constant="100" id="yKs-i0-q9r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="di3-Sk-6sr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="8dT-K6-kgx"/>
+                    <constraint firstAttribute="trailing" secondItem="di3-Sk-6sr" secondAttribute="trailing" constant="10" id="LR2-IS-5tz"/>
+                    <constraint firstAttribute="trailing" secondItem="di3-Sk-6sr" secondAttribute="trailing" constant="10" id="Nb9-Gi-eUr"/>
+                    <constraint firstAttribute="bottom" secondItem="di3-Sk-6sr" secondAttribute="bottom" constant="25" id="TC4-cH-MYf"/>
+                    <constraint firstItem="Y2a-uE-WXT" firstAttribute="leading" secondItem="t5Q-vk-QOX" secondAttribute="trailing" constant="8" symbolic="YES" id="UpW-RW-phf"/>
+                    <constraint firstItem="di3-Sk-6sr" firstAttribute="leading" secondItem="Y2a-uE-WXT" secondAttribute="trailing" constant="8" symbolic="YES" id="WNl-jo-Vjh"/>
+                    <constraint firstAttribute="bottom" secondItem="Y2a-uE-WXT" secondAttribute="bottom" constant="20" id="bJR-e2-IdE"/>
+                    <constraint firstAttribute="bottom" secondItem="di3-Sk-6sr" secondAttribute="bottom" constant="25" id="gSf-lO-ivh"/>
+                    <constraint firstAttribute="bottom" secondItem="t5Q-vk-QOX" secondAttribute="bottom" constant="20" id="nFq-Qi-XeM"/>
+                    <constraint firstItem="t5Q-vk-QOX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="oMN-CA-gpP"/>
+                    <constraint firstItem="t5Q-vk-QOX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="rXv-nn-cXB"/>
+                    <constraint firstItem="di3-Sk-6sr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="sVE-iM-VLP"/>
+                    <constraint firstItem="Y2a-uE-WXT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="t6f-rv-Epw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieCnt" destination="di3-Sk-6sr" id="zEj-UK-wu0"/>
+                <outlet property="movieName" destination="Y2a-uE-WXT" id="Ied-TJ-vnu"/>
+                <outlet property="ranking" destination="t5Q-vk-QOX" id="X51-zj-0zJ"/>
+            </connections>
+            <point key="canvasLocation" x="0.0" y="19.419642857142858"/>
+        </tableViewCell>
+    </objects>
+</document>

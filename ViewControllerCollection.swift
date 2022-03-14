@@ -19,7 +19,9 @@ class ViewControllerCollection: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func changeDatePickerForCollection(_ sender: UIDatePicker) {
+    }
+    
     /*
     // MARK: - Navigation
 
